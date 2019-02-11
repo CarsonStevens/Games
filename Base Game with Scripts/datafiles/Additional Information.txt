@@ -1,0 +1,46 @@
+=========================
+ADDITIONAL INFORMATION|||
+=========================
+
+Just want to clarify again that should you be stuck with the implementation of this utility for your game, just send me a message via e-mail or other means.
+
+E-mail address: aquanova.mp@gmail.com
+
+
+Should you run into bugs, please report them at that exact e-mail, with reproduction steps, so I can fix it for the next version!
+
+
+
+============================================
+IMPORTANT NOTES WITH VERSIONS + CHANGE LOGS|
+============================================
+This is where you can find important version-relevant information.
+
+
+====================
+||||| v.1.1.1  |||||
+====================
+- Fixed/Overhauled simple mode parallax effect and added invert toggle (so layers at the back move faster instead of slower).
+- Added a toggle to use the room's background color or the background color as specified in the config.
+- Fixed presets to accomodate for the changes.
+- Updated demo.
+- Included change logs and version relevant information with the "Additional Information.txt" file that comes along with this.
+
+Please ensure that you copy over your presets to the new configuration files, I am looking into ways to make this more convenient but for now I haven't found a good way yet.
+
+
+
+====================
+||||| v.1.1.0  |||||
+====================
+- Added fader system for making sprites fade as they get closer to the left, right, top or bottom of the screen (can all be enabled at the same time. You can change the fading power and various offsets (advanced mode).
+- Added sprite skipping draw if its alpha below a configurable threshold (advanced mode).
+- Added manual control, first room demonstrates this by using the WSAD keys. You can specify a panning speed by changing the manual_x and the manual_y variables in "DBobject".
+- Added an example utilizing the faders and the manual control feature.
+- Added random parallax offset per star for each layer, this allows you to slightly randomly offset the parallax effect for each star in the layer you are tweaking  (advanced mode).
+
+
+
+
+
+
