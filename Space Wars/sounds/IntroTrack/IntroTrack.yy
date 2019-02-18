@@ -1,5 +1,5 @@
 {
-    "id": "53e80791-4c73-4719-b2b4-f44e44cc5d32",
+    "id": "48819063-239b-40e4-9367-31f1310f5caf",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "IntroTrack",
@@ -9,6 +9,6 @@
     "kind": 0,
     "preload": false,
     "sampleRate": 44100,
-    "type": 2,
+    "type": 0,
     "volume": 1
 }

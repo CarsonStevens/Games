@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "objSpaceShip",
     "eventList": [
-        
+        {
+            "id": "7a9debcd-0097-4efb-99d1-7f4a60190c66",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ac1f4aef-3a74-426a-9cba-5702c4cfbb00"
+        },
+        {
+            "id": "fd5b740e-be21-4f3f-8b45-4d42e6745d72",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ac1f4aef-3a74-426a-9cba-5702c4cfbb00"
+        },
+        {
+            "id": "7d2822a7-c8b9-40db-a4c7-a4aa65c3069c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "c8baeb6e-ba23-4087-864f-3a59a7ec2496",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "ac1f4aef-3a74-426a-9cba-5702c4cfbb00"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
