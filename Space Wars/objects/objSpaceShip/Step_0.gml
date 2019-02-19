@@ -5,10 +5,10 @@ rotation = 0;
 firing_delay--;
 
 //Input variables
-key_thrust = keyboard_check(vk_up) || keyboard_check(ord("W"));
-key_clockwise = keyboard_check(vk_right) || keyboard_check(ord("D"));
-key_counter_clockwise = keyboard_check(vk_left) || keyboard_check(ord("A"));
-key_fire = keyboard_check(vk_space);
+key_thrust = keyboard_check(vk_up);
+key_clockwise = keyboard_check(vk_right);
+key_counter_clockwise = keyboard_check(vk_left);
+key_fire = keyboard_check(vk_down);
 
 
 //Update thrust and rotation from input
@@ -26,11 +26,11 @@ else{
 
 
 //Update for gravity
-//var x_grv = x - objSun.x;
-//var y_grv = y - objSun.y;
-//var r_mag = sqrt(x_grv*x_grv + y_grv*y_grv);
-//x_acc = objSun.GRAV * x_grv / (r_mag*r_mag*r_mag);
-//y_acc = objSun.GRAV * y_grv / (r_mag*r_mag*r_mag);
+var x_grv = x - objSun.x;
+var y_grv = y - objSun.y;
+var r_mag = sqrt(x_grv*x_grv + y_grv*y_grv);
+x_acc -= objSun.GRAV * x_grv / (r_mag*r_mag*r_mag);
+y_acc -= objSun.GRAV * y_grv / (r_mag*r_mag*r_mag);
 
 //Final x update
 x_vel += x_acc;
