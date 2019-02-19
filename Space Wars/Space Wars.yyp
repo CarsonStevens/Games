@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "93282f65-9bca-4e15-8ea5-bf489a84811c",
+            "Value": {
+                "id": "14946827-4443-4f33-b2dc-da8408d73e3c",
+                "resourcePath": "sprites\\sprThrust\\sprThrust.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95106888-e943-42cb-a40e-c54c04d9f908",
             "Value": {
                 "id": "df8f70d3-9268-46a2-bf27-684bfe2fdcc0",
