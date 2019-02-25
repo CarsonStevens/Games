@@ -12,6 +12,7 @@ mass = 100;
 
 //for adjusting thrust
 thrust_const = 0.12;
+thrusting = false;
 
 //for adjusting firing delay
 firing_delay = 0;

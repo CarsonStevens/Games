@@ -79,6 +79,22 @@
             }
         },
         {
+            "Key": "205d42e2-7d10-4bc8-847d-b99b9cd48a17",
+            "Value": {
+                "id": "a972ef30-d8ce-421c-bb3d-9c25151eb97a",
+                "resourcePath": "sprites\\sprThrust2\\sprThrust2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "23dad4b6-f49a-4a96-ad73-f3acd7fbd880",
+            "Value": {
+                "id": "8d9d5124-e464-4667-a045-c752c5db601e",
+                "resourcePath": "objects\\objThrust1\\objThrust1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2b5d7e0b-20cb-4eff-a82e-9c7cbca53e3e",
             "Value": {
                 "id": "855c8e93-b9ae-48d9-be09-6de2444236a4",
@@ -132,6 +148,14 @@
                 "id": "f5764aa7-c877-4133-b446-5cc2171864b9",
                 "resourcePath": "sprites\\sprContinue\\sprContinue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "46a57d45-6d0a-497f-acbe-e2c8e7e4179a",
+            "Value": {
+                "id": "c83e7854-f2a6-4fee-9b6a-b6f75215da2b",
+                "resourcePath": "objects\\objThrust2\\objThrust2.yy",
+                "resourceType": "GMObject"
             }
         },
         {

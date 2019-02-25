@@ -1,4 +1,12 @@
 /// @description destroy ship
+
+//Delete thrust if thrusting while dying
+if(objSpaceShip.thrusting){
+	with(objThrust1){
+		instance_destroy();
+	}
+}
+
 if(activated){
 	with(instance_create_layer(x,y,layer,objBlowUp)){}
 

@@ -3,6 +3,7 @@
 //Reset inputs
 rotation = 0;
 firing_delay--;
+thrusting = false;
 
 //Input variables
 key_thrust = keyboard_check(ord("W"));
@@ -18,6 +19,7 @@ rotation = (key_counter_clockwise - key_clockwise);
 if(key_thrust){
 	x_acc = -thrust_const * sin(degtorad(image_angle));
 	y_acc = -thrust_const * cos(degtorad(image_angle));
+	thrusting = true;
 }
 else{
 	x_acc = 0;
@@ -54,6 +56,13 @@ if(key_fire && (firing_delay < 0)){
 	with(instance_create_layer(x,y, "Missiles", objMissile2)){
 		audio_sound_gain(MissileFire, 1.5, 0.3);
 		audio_play_sound(MissileFire,1,false);
+		image_angle = objSpaceShip2.image_angle;
+	}
+}
+
+//Handle Thrusting
+if(thrusting){
+	with(instance_create_layer(x,y, "Missiles", objThrust2)){
 		image_angle = objSpaceShip2.image_angle;
 	}
 }

@@ -1,4 +1,11 @@
-/// @description
+/// @description destory ship/thrust
+//Delete thrust if thrusting while dying
+if(thrusting){
+	with(objThrust2){
+		instance_destroy();
+	}
+}
+
 with(instance_create_layer(x,y,layer,objBlowUp)){}
 instance_destroy();
 
