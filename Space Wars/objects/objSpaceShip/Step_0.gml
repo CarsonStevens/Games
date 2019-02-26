@@ -16,10 +16,11 @@ key_fire = keyboard_check(vk_down);
 rotation = (key_counter_clockwise - key_clockwise);
 
 //Update accelerations from thrust
-if(key_thrust){
+if(key_thrust) && fuel > 0 {
 	x_acc = -thrust_const * sin(degtorad(image_angle));
 	y_acc = -thrust_const * cos(degtorad(image_angle));
 	thrusting = true;
+	fuel--;
 }
 else{
 	x_acc = 0;
@@ -51,8 +52,9 @@ if(y > room_height) y = 0;
 if (y < 0) y = room_height;
 
 //Handle Firing
-if(key_fire && (firing_delay < 0)){
+if(key_fire && (firing_delay < 0) && missiles > 0){
 	firing_delay = 50;
+	missiles--;
 	with(instance_create_layer(x,y, "Missiles", objMissile)){
 		audio_sound_gain(MissileFire, 1.5, 0.3);
 		audio_play_sound(MissileFire,1,false);

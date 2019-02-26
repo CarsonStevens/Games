@@ -1,3 +1,5 @@
+/*
+
 // Load some font
 if (os_type == os_windows || os_type == os_win32 || os_type == os_win8native)
     var _slash = "\\";
@@ -9,3 +11,4 @@ show_debug_message("Loading from ... " + string(_path));
 
 fntScore = font_add(_path, 150, false, false, 32, 128);
 
+*/

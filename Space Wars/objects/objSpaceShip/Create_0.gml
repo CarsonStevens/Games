@@ -19,8 +19,10 @@ firing_delay = 0;
 
 //Stats
 score = 0;
-fuel = 100;
-missiles = 30;
+fuel_max = 100;
+fuel = fuel_max;
+missiles_max = 30;
+missiles = missiles_max;
 
 
 
