@@ -63,6 +63,13 @@ if(key_fire && (firing_delay < 0)){
 //Handle Thrusting
 if(thrusting){
 	with(instance_create_layer(x,y, "Missiles", objThrust2)){
+		if !(audio_is_playing(Thrust2)){
+		audio_sound_gain(Thrust2, 5, 0.3);
+		audio_play_sound(Thrust2,1,true);
+		}
 		image_angle = objSpaceShip2.image_angle;
 	}
+}
+else{
+	audio_stop_sound(Thrust2);
 }

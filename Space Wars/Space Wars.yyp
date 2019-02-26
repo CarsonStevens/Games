@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "550ee269-d836-4331-9539-d4b0302a8aa7",
+            "Value": {
+                "id": "ac175be7-8ecc-45a7-b272-ed5df257bc41",
+                "resourcePath": "sounds\\Thrust1\\Thrust1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5822a6cb-6154-47d6-a43f-9c79057df7aa",
             "Value": {
                 "id": "c642d6fd-3a4c-4d08-aeae-00e7330bd3a0",
@@ -212,6 +220,14 @@
                 "id": "da9c3f1a-9e4f-4fe5-a87c-d07d6363d756",
                 "resourcePath": "objects\\objSpaceShip2\\objSpaceShip2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6553da0f-25e5-4335-9cdb-8f0f5e41ba37",
+            "Value": {
+                "id": "4c68de77-31cb-4a7e-9c32-c770607f43b8",
+                "resourcePath": "sounds\\Thrust2\\Thrust2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -348,6 +364,14 @@
                 "id": "eb589f1c-a01d-4553-ba61-5f8fd08e3747",
                 "resourcePath": "objects\\objSpaceShip\\objSpaceShip.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ad46b923-05e7-49a8-a476-4e0268cf24d4",
+            "Value": {
+                "id": "a55ca9ed-20d0-42ba-ad01-feb167a21c0d",
+                "resourcePath": "views\\ad46b923-05e7-49a8-a476-4e0268cf24d4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
