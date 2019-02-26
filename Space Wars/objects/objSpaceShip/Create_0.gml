@@ -17,5 +17,11 @@ thrusting = false;
 //for adjusting firing delay
 firing_delay = 0;
 
+//Stats
+score = 0;
+fuel = 100;
+missiles = 30;
+
+
 
 

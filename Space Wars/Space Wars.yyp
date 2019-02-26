@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0b0a9b58-d7ce-4655-96d0-6a7771ef7653",
+            "Value": {
+                "id": "8345e576-a50c-4577-b8ba-bb4e68af1c76",
+                "resourcePath": "sprites\\sprHUDTop\\sprHUDTop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e0eb9b4-1769-4ae4-9a4f-b9525ee7c905",
             "Value": {
                 "id": "fcd1eee1-0ad5-4829-88f3-aa8d921ea372",
@@ -147,6 +155,14 @@
             "Value": {
                 "id": "f5764aa7-c877-4133-b446-5cc2171864b9",
                 "resourcePath": "sprites\\sprContinue\\sprContinue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "43f08a6b-d198-4c9c-b1e7-339f88852aef",
+            "Value": {
+                "id": "7d3cd458-d558-4a49-a0a7-526427105740",
+                "resourcePath": "sprites\\sprHUD\\sprHUD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -239,6 +255,22 @@
             }
         },
         {
+            "Key": "688717da-4c27-4366-a116-19764d99b3ff",
+            "Value": {
+                "id": "d51cbb6a-6cf6-40d2-8c7b-d870b991f59f",
+                "resourcePath": "objects\\objHUDTop\\objHUDTop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6d2ff7ef-d2ad-4a37-a716-0d5579d7639c",
+            "Value": {
+                "id": "885c9fc9-1bb9-4343-b6b1-33a59a270877",
+                "resourcePath": "datafiles_yy\\starcraft.ttf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "6e53f86d-f2e7-40a9-9133-262bc1b96b2d",
             "Value": {
                 "id": "037934b7-d2df-4a98-a1bd-8c8bf04484b6",
@@ -295,6 +327,14 @@
             }
         },
         {
+            "Key": "8c9696cc-19f9-4380-88bc-1e6e509c07f6",
+            "Value": {
+                "id": "8a5e80c2-e06c-4a65-8216-868d5f1ac67a",
+                "resourcePath": "views\\8c9696cc-19f9-4380-88bc-1e6e509c07f6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8f613694-f979-4526-b15c-8198ebbac319",
             "Value": {
                 "id": "9183568e-bdf8-40d9-aeec-74c66c2c6770",
@@ -322,7 +362,7 @@
             "Key": "9de05ecd-de3e-4d42-b2af-619fc24e31aa",
             "Value": {
                 "id": "f497b3d1-6901-4722-ab70-e0efd82d1d3d",
-                "resourcePath": "fonts\\Arial\\Arial.yy",
+                "resourcePath": "fonts\\fntScore\\fntScore.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -363,6 +403,14 @@
             "Value": {
                 "id": "eb589f1c-a01d-4553-ba61-5f8fd08e3747",
                 "resourcePath": "objects\\objSpaceShip\\objSpaceShip.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ac853430-874f-40a3-b701-ee7381cb2688",
+            "Value": {
+                "id": "76395b6d-b4ff-4289-9491-fc1164035ab1",
+                "resourcePath": "objects\\objHUDBottom\\objHUDBottom.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -503,6 +551,30 @@
             }
         },
         {
+            "Key": "d84cd9be-605d-49ac-bedb-4fd02980c1cb",
+            "Value": {
+                "id": "31ec8fe1-1da8-40df-ba37-0df4fc268977",
+                "resourcePath": "objects\\objHUD\\objHUD.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d93b23ff-116e-467f-a088-4b0a5187d804",
+            "Value": {
+                "id": "2f483c45-03a7-435e-89f3-7e1a5755134b",
+                "resourcePath": "scripts\\delete_fonts\\delete_fonts.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "db2ada6a-de08-4acb-ba84-a4b86c62808b",
+            "Value": {
+                "id": "1c0f8766-4335-4145-b9c4-336a240275ce",
+                "resourcePath": "sprites\\sprHUDBottom\\sprHUDBottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e04a33f9-5f8e-4750-a9ca-3bc729cb7c64",
             "Value": {
                 "id": "c66aa36c-d240-41e0-a701-599e3a45654a",
@@ -524,6 +596,14 @@
                 "id": "f6a59b4e-22cc-4265-8809-4d7ce7dd5960",
                 "resourcePath": "views\\e8d44661-bf01-47ab-b3dc-139735d3af33.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ed3dfe9a-0edf-475f-bde3-b1227722339f",
+            "Value": {
+                "id": "2d5138f2-448a-4bc0-af17-3e55bc9253bf",
+                "resourcePath": "scripts\\load_fonts\\load_fonts.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -600,7 +680,8 @@
         }
     ],
     "script_order": [
-        
+        "ed3dfe9a-0edf-475f-bde3-b1227722339f",
+        "d93b23ff-116e-467f-a088-4b0a5187d804"
     ],
     "tutorial": ""
 }

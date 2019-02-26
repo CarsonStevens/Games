@@ -16,3 +16,5 @@ if(activated){
 	with(objSpaceShip) instance_destroy();
 }
 
+//Update score
+with(objSpaceShip2) score++;
