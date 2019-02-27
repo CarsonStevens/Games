@@ -35,18 +35,22 @@ var r_mag = sqrt(x_grv*x_grv + y_grv*y_grv);
 x_acc -= objSun.GRAV * x_grv / (r_mag*r_mag*r_mag);
 y_acc -= objSun.GRAV * y_grv / (r_mag*r_mag*r_mag);
 
+/*
+//For max speed
+var ship_speed = sqrt(x_vel*x_vel + y_vel*y_vel);
+if(ship_speed <= max_velocity){
+	//Final x update
+	x_vel += x_acc;
+	//Final y update
+	y_vel += y_acc;
+}
+*/
 //Final x update
 x_vel += x_acc;
 //Final y update
 y_vel += y_acc;
-
-//For max speed
-var ship_speed = sqrt(x_vel*x_vel + y_vel*y_vel);
-if(ship_speed <= max_velocity){
-	x += x_vel;
-	y += y_vel;
-}
-	
+x += x_vel;
+y += y_vel;	
 
 //Update image angle
 image_angle += rotation * rotation_const;
