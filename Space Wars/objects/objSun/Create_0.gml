@@ -9,4 +9,4 @@ mass = 30000;
 r = 100;
 
 //Force of Gravity from sun on player
-GRAV = 15000;
+GRAV = 10000;

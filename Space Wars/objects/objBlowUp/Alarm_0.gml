@@ -1,3 +1,3 @@
 /// @description game restart
 instance_destroy();
-game_restart();
+room_goto(Level1);

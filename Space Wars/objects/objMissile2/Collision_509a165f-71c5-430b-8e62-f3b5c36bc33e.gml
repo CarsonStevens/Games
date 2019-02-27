@@ -14,7 +14,6 @@ if(activated){
 	audio_sound_gain(Crash, 1.5, 0);
 	audio_play_sound(Crash,1,false);
 	with(objSpaceShip2) instance_destroy();
+	instance_destroy();
+	global.player_one_score++;
 }
-
-//Update score
-with(objSpaceShip) score++;

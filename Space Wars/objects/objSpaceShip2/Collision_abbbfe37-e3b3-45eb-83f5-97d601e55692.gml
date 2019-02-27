@@ -13,5 +13,5 @@ instance_destroy();
 audio_sound_gain(Crash, 1.5, 0);
 audio_play_sound(Crash,1,false);
 
-//Update score
-with(objSpaceShip) score++;
+//Update player_score
+global.player_one_score++;

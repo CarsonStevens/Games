@@ -18,8 +18,7 @@ thrusting = false;
 firing_delay = 0;
 
 //for stats
-score = 0;
-fuel_max = 100;
+fuel_max = 1000;
 fuel = fuel_max;
 missiles_max = 30;
 missiles = missiles_max;
