@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "858a53d7-b96a-4c72-8de7-846a23f3cdf6",
+            "Value": {
+                "id": "4e33b0e9-c3aa-4f7f-8cbd-ff97dfcc4457",
+                "resourcePath": "sprites\\sprAsteroid2\\sprAsteroid2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8594abaf-07c8-4d4f-b082-817d2537f61a",
             "Value": {
                 "id": "3a3b2bd9-6048-413c-8980-fc7dfd01ee51",
@@ -539,6 +547,14 @@
             "Value": {
                 "id": "df8f70d3-9268-46a2-bf27-684bfe2fdcc0",
                 "resourcePath": "sprites\\sprLogo\\sprLogo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9a0126aa-c6eb-47c8-8a57-a80c01d81e1b",
+            "Value": {
+                "id": "e2d03c24-331a-41fd-a6cb-93738d34e7d2",
+                "resourcePath": "sprites\\sprAsteroid3\\sprAsteroid3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -732,6 +748,14 @@
                 "id": "ee0f2e20-0eb9-4e4d-ab3e-572c0b19d7f1",
                 "resourcePath": "objects\\objSoloControls\\objSoloControls.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c78552a2-0a19-4fff-adb6-99727be6faad",
+            "Value": {
+                "id": "76d822df-3216-4102-aba1-1f9320a53e4e",
+                "resourcePath": "sprites\\sprAsteroid1\\sprAsteroid1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
