@@ -14,5 +14,7 @@ instance_destroy();
 audio_sound_gain(Crash, 1.5, 0);
 audio_play_sound(Crash,1,false);
 
-//Update player_score
-global.player_two_score++;
+if !objScoreController.solo {
+	//Update player_score
+	global.player_two_score++;
+}

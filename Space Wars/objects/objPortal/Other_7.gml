@@ -1,2 +1,2 @@
-/// @description Destroy ship
+/// @description Destroy portal
 instance_destroy();

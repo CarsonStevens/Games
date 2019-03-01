@@ -1,3 +1,8 @@
 /// @description game restart
 instance_destroy();
-room_goto(Level1);
+if(objScoreController.solo == true){
+	room_goto(EndSolo)
+}
+else{
+	room_goto(Level1);
+}
