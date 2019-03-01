@@ -1,5 +1,6 @@
 /// @description for movement
 
+/*
 //DEBUG
 if(objScoreController.solo == true){
 	draw_set_color(c_lime);
@@ -11,6 +12,7 @@ else{
 	draw_set_font(fntScoreFinal);
 	draw_text(room_width/2 + 40, room_height/2 - 100, "NOT SOLO");
 }
+*/
 
 //Reset inputs
 rotation = 0;

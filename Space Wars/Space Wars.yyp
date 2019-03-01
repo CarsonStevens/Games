@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "06293a21-eaa0-4f65-8c2c-e1fce17110f8",
+            "Value": {
+                "id": "10f8d2b7-9d03-489f-ae12-93a2bfdd6656",
+                "resourcePath": "objects\\objAsteroid2\\objAsteroid2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "066b2f23-b4dd-4cdc-87a1-6c93d5c0d6b3",
             "Value": {
                 "id": "175433b7-35aa-4e93-8395-efa2ebbaa6df",
@@ -407,6 +415,14 @@
             }
         },
         {
+            "Key": "68ea9cc2-f3df-4516-80c9-e3939983a169",
+            "Value": {
+                "id": "0b90af9f-271b-4346-8f62-fcbb3582b2b6",
+                "resourcePath": "objects\\objBlowUp2\\objBlowUp2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6d2ff7ef-d2ad-4a37-a716-0d5579d7639c",
             "Value": {
                 "id": "885c9fc9-1bb9-4343-b6b1-33a59a270877",
@@ -420,6 +436,14 @@
                 "id": "037934b7-d2df-4a98-a1bd-8c8bf04484b6",
                 "resourcePath": "sprites\\sprNightSkyMove2\\sprNightSkyMove2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "70d6c959-4e8d-457f-9ef7-f8d7641a7653",
+            "Value": {
+                "id": "a28f6311-bc5d-4db7-a729-de2f3639910f",
+                "resourcePath": "objects\\objAsteroid3\\objAsteroid3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -532,6 +556,14 @@
                 "id": "9183568e-bdf8-40d9-aeec-74c66c2c6770",
                 "resourcePath": "views\\8f613694-f979-4526-b15c-8198ebbac319.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "928704d6-984e-4318-876d-1b99572dea2e",
+            "Value": {
+                "id": "397dfba5-eb4b-4fbd-b5a0-ee35ed941a0e",
+                "resourcePath": "sprites\\sprBlowUp2\\sprBlowUp2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -716,6 +748,14 @@
                 "id": "92491cdd-dc01-4c96-8c9d-a1df4ab476f3",
                 "resourcePath": "sprites\\sprWin1\\sprWin1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bf0848dc-0fd9-44dd-835c-bbe4084d3be3",
+            "Value": {
+                "id": "bec8e83c-574e-428f-b90c-5b6bcae56cdf",
+                "resourcePath": "objects\\objAsteroid1\\objAsteroid1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
