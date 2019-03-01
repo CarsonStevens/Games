@@ -1,5 +1,7 @@
 /// @description go to solo level
 
 objScoreController.solo = true;
-room_goto(Solo);
+instance_destroy();
+with(objTwoPlayer) instance_destroy();
+room_goto(SoloInstructions);
 

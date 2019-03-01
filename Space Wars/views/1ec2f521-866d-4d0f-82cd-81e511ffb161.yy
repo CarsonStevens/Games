@@ -9,7 +9,9 @@
         "066b2f23-b4dd-4cdc-87a1-6c93d5c0d6b3",
         "f3bf26a4-d797-4820-b352-a7069a38541e",
         "1e72a5bb-42a9-4522-a334-35c10169159f",
-        "f7b7c2ba-e092-47ee-9295-28a3b05a65a9"
+        "f7b7c2ba-e092-47ee-9295-28a3b05a65a9",
+        "61bdd1b1-4559-417a-a2e4-5d4468b3203f",
+        "3401f74e-0030-42b8-8308-30b81654c069"
     ],
     "filterType": "GMSprite",
     "folderName": "Instructions",
