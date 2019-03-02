@@ -951,14 +951,6 @@
             }
         },
         {
-            "Key": "e0bb674b-2d88-4cdc-9cfa-f80a749a8480",
-            "Value": {
-                "id": "0920c21e-a379-4bb7-af36-f96235fa5eb2",
-                "resourcePath": "objects\\objAstroid\\objAstroid.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e2b5f8db-09b3-4ce2-bf93-4f60468592c8",
             "Value": {
                 "id": "ede11aa0-528d-4f90-88f8-f3e5fc5f768b",

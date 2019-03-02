@@ -1,8 +1,7 @@
 /// @description Blow up
 with(instance_create_layer(x,y,layer,objBlowUp2)){
-	image_xscale = objAsteroid1.image_xscale;
-	image_yscale = objAsteroid1.image_yscale;
-
+	image_xscale = objAsteroid2.image_xscale;
+	image_yscale = objAsteroid2.image_yscale;
 }
 instance_destroy();
 

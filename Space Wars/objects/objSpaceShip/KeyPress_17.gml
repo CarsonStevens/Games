@@ -8,3 +8,4 @@ y = irandom_range(0, room_height);
 
 //Create portal at new spot
 with(instance_create_layer(x,y,layer,objPortal)){}
+fuel -= 50;

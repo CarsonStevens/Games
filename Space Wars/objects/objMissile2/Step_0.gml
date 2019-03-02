@@ -8,12 +8,13 @@ var x_acc = objSun.GRAV * x_grv / (r_mag*r_mag*r_mag);
 var y_acc = objSun.GRAV * y_grv / (r_mag*r_mag*r_mag);
 
 
-
-//Final x update
-x_vel += -thrust_const * sin(degtorad(image_angle)) - x_acc;
+if((sqrt(x_vel*x_vel + y_vel*y_vel)) < 30){
+	//Final x update
+	x_vel += -thrust_const * sin(degtorad(image_angle)) - x_acc;
+	//Final y update
+	y_vel += -thrust_const * cos(degtorad(image_angle)) - y_acc;
+}
 x += x_vel;
-//Final y update
-y_vel += -thrust_const * cos(degtorad(image_angle)) - y_acc;
 y += y_vel;
 
 

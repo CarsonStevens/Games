@@ -1,6 +1,6 @@
 /// @description For properties
 
-thrust_const = 0.1;
+thrust_const = 0.5;
 x_vel = objSpaceShip.x_vel;
 y_vel = objSpaceShip.y_vel;
 lifespan = 300;
