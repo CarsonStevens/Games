@@ -1,4 +1,4 @@
-/// @description Handling end game and Asteroid creation
+/// @description Handling end game
 
 if(!scored){
 	//Handle Scoring

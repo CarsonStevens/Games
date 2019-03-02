@@ -7,7 +7,7 @@ y_vel = 0;
 x_acc = 0;
 y_acc = 0;
 rotation = 0;
-rotation_const = 2;
+rotation_const = 5;
 mass = 100;
 
 //for adjusting thrust

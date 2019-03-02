@@ -7,8 +7,14 @@ if keyboard_check(vk_space){
 		with(objLogo) instance_destroy();
 		with(objContinue) instance_destroy();
 		//Create options for player
-		with(instance_create_layer(room_width/2, room_height/2 - 300, layer, objSinglePlayer)){}
-		with(instance_create_layer(room_width/2, room_height/2 + 300, layer, objTwoPlayer)){}
+		with(instance_create_layer(room_width/2, room_height/2 - 300, layer, objSinglePlayer)){
+			image_xscale = 2;
+			image_yscale = 2;
+		}
+		with(instance_create_layer(room_width/2, room_height/2 + 300, layer, objTwoPlayer)){
+			image_xscale = 2;
+			image_yscale = 2;
+		}
 	}
 	if(room == SoloInstructions){
 		room_goto(Solo);

@@ -69,6 +69,9 @@ if (y < 0) y = room_height;
 //Handle Firing
 if(key_fire && (firing_delay < 0) && missiles > 0){
 	firing_delay = 50;
+	if(objScoreController.solo){
+		firing_delay = 35;
+	}
 	missiles--;
 	with(instance_create_layer(x,y, "Missiles", objMissile)){
 		audio_sound_gain(MissileFire, 1.5, 0.3);

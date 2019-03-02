@@ -7,7 +7,7 @@ var r_mag = sqrt(x_grv*x_grv + y_grv*y_grv);
 x_acc -= objSun.GRAV * x_grv / (r_mag*r_mag*r_mag);
 y_acc -= objSun.GRAV * y_grv / (r_mag*r_mag*r_mag);
 
-if((sqrt(x_vel*x_vel + y_vel*y_vel)) < 7){
+if((sqrt(x_vel*x_vel + y_vel*y_vel)) < 4){
 	//Final x update
 	x_vel += x_acc * gravity_strength;
 	//Final y update

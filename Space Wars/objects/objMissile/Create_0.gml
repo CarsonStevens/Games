@@ -3,7 +3,7 @@
 thrust_const = 0.5;
 x_vel = objSpaceShip.x_vel;
 y_vel = objSpaceShip.y_vel;
-lifespan = 300;
+lifespan = 240;
 activate_time = 100;
 activated = false;
 

@@ -7,14 +7,16 @@ if(objSpaceShip.thrusting){
 	}
 }
 
-if(activated){
-	with(instance_create_layer(x,y,layer,objBlowUp)){}
 
-	//Crash Sound
-	audio_sound_gain(Crash, 1.5, 0);
-	audio_play_sound(Crash,1,false);
-	with(objSpaceShip) instance_destroy();
-	instance_destroy();
-	global.player_two_score++;
-}
+with(instance_create_layer(x,y,layer,objBlowUp)){}
+
+//Crash Sound
+audio_sound_gain(Crash, 1.5, 0);
+audio_play_sound(Crash,1,false);
+with(objSpaceShip) instance_destroy();
+instance_destroy();
+
+//Update Playerscore
+global.player_two_score++;
+
 
